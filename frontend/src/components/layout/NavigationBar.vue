@@ -5,7 +5,7 @@
 
 <div class="NavigationBar">
     <div id="logo">
-        <h1 class="text-xl">Adrián Lukácsi</h1>
+        <p class="text-xl">Adrián Lukácsi</p>
     </div>    
     <div class="NavigationItems">
         <p>Home</p> 
@@ -20,7 +20,7 @@
 
 .NavigationBar{
     @apply flex flex-row justify-between px-8 w-full p-4 my-auto bg-[#0C0537] text-white items-center;
-    #logo h1{
+    #logo p{
         @apply text-2xl ;
     }
     .NavigationItems{
