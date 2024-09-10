@@ -22,6 +22,9 @@ import SectionTitle from "@/components/pageComponents/SectionTitle.vue"
 
 <style scoped>
 .AboutMeText{
-  @apply w-1/2 text-white m-auto text-center text-xl font-thin mb-4 tracking-wider
+  @apply w-1/2 text-white m-auto text-center text-xl font-thin mb-4 tracking-wider;
+  p{
+    @apply my-16;
+  }
 }
 </style>
