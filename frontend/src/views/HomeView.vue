@@ -2,6 +2,8 @@
 import Layout from "@/components/layout/Layout.vue";
 import Banner from "@/components/pageComponents/Banner.vue"
 import SectionTitle from "@/components/pageComponents/SectionTitle.vue"
+import PortfolioSection from "@/components/pageComponents/PortfolioSection.vue"
+
 </script>
 
 <template>
@@ -14,6 +16,7 @@ import SectionTitle from "@/components/pageComponents/SectionTitle.vue"
   <p>I am a young and enthusiastic Lorem Ipsum  Dolor Sit Amer Cons ecteteur  teteur   Dolor Sit A mer Consec ectetesec ecteteur  teteur   Dolor Sit A ur  teteur   Dolor Sit A  teteur   Dolor Sit A mer Con enthusiastic Lorem Ipsum  Dolor Sit Amer Cons ecteteur  teteur   Dolor Sit A mer Consec ectetesec</p>
 </div>
 <SectionTitle title="My Work" subTitle="What Do i Do?" />
+<PortfolioSection />
 <SectionTitle title="My Skills" subTitle="What am i good at?" />
 <SectionTitle title="Work together" subTitle="How do we collaborate?" />
 </Layout>
