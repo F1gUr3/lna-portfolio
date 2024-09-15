@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout.vue";
 import Banner from "@/components/pageComponents/Banner.vue"
 import SectionTitle from "@/components/pageComponents/SectionTitle.vue"
 import PortfolioSection from "@/components/pageComponents/PortfolioSection.vue"
+import SkillsSection from "@/components/pageComponents/SkillsSection.vue";
 
 </script>
 
@@ -18,6 +19,7 @@ import PortfolioSection from "@/components/pageComponents/PortfolioSection.vue"
 <SectionTitle title="My Work" subTitle="What Do i Do?" />
 <PortfolioSection />
 <SectionTitle title="My Skills" subTitle="What am i good at?" />
+<SkillsSection/>
 <SectionTitle title="Work together" subTitle="How do we collaborate?" />
 </Layout>
 
