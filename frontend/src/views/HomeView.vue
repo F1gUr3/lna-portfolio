@@ -4,6 +4,7 @@ import Banner from "@/components/pageComponents/Banner.vue"
 import SectionTitle from "@/components/pageComponents/SectionTitle.vue"
 import PortfolioSection from "@/components/pageComponents/PortfolioSection.vue"
 import SkillsSection from "@/components/pageComponents/SkillsSection.vue";
+import Steps from "@/components/pageComponents/Steps.vue";
 
 </script>
 
@@ -20,7 +21,8 @@ import SkillsSection from "@/components/pageComponents/SkillsSection.vue";
 <PortfolioSection />
 <SectionTitle title="My Skills" subTitle="What am i good at?" />
 <SkillsSection/>
-<SectionTitle title="Work together" subTitle="How do we collaborate?" />
+<SectionTitle title="Work together" subTitle="How do we collaborate?" class="mt-12" />
+<Steps />
 </Layout>
 
 </template>

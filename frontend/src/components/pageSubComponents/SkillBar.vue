@@ -31,7 +31,7 @@ onMounted(() => {
 <div class="textContainer">
 <h3>{{ typeOfSkill }}</h3>  
 
-<p>{{ percantage }}%</p>
+<p id="percentage">{{ percantage }}%</p>
 </div>
 <div class="bar">
     <div class="percent" :style="{ width: isVisible ? percantage + '%' : '0%' }"></div>
@@ -39,9 +39,13 @@ onMounted(() => {
 </div>
 </div>
 
+
 </template>
 
 <style scoped>
+#percentage{
+    @apply text-gray-400
+}
 .barContainer{
     @apply w-3/4 my-4
 }

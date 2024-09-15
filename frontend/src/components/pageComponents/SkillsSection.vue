@@ -3,21 +3,37 @@ import SkillBar from '@/components/pageSubComponents/SkillBar.vue';
 
 let skills = [
     {
-        name: "HTML+CSS",
+        name: "HTML+CSS+JS",
         percantage: 90,
     },
     {
-        name: "HTML+CSS",
-        percantage: 70,
+        name: "Tailwind CSS",
+        percantage: 80,
     },
     {
-        name: "HTML+CSS",
-        percantage: 60,
+        name: "VueJS",
+        percantage: 75,
     },
     {
-        name: "HTML+CSS",
+        name: "Express JS",
         percantage: 40,
-    }
+    },
+    {
+        name: "SQL",
+        percantage: 90,
+    },
+    {
+        name: "Python",
+        percantage: 90,
+    },
+    {
+        name: ".net C#",
+        percantage: 80,
+    },
+    {
+        name: "SEO",
+        percantage: 80,
+    },
 ]
 
 </script>
