@@ -5,6 +5,7 @@ import SectionTitle from "@/components/pageComponents/SectionTitle.vue"
 import PortfolioSection from "@/components/pageComponents/PortfolioSection.vue"
 import SkillsSection from "@/components/pageComponents/SkillsSection.vue";
 import Steps from "@/components/pageComponents/Steps.vue";
+import FormVue from "@/components/pageComponents/Form.vue";
 
 </script>
 
@@ -23,6 +24,8 @@ import Steps from "@/components/pageComponents/Steps.vue";
 <SkillsSection/>
 <SectionTitle title="Work together" subTitle="How do we collaborate?" class="mt-12" />
 <Steps />
+<FormVue />
+
 </Layout>
 
 </template>
