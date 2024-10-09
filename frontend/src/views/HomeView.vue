@@ -20,10 +20,12 @@ import FormVue from "@/components/pageComponents/Form.vue";
 </div>
 <SectionTitle title="My Work" subTitle="What Do i Do?" />
 <PortfolioSection />
+
 <SectionTitle title="My Skills" subTitle="What am i good at?" />
 <SkillsSection/>
 <SectionTitle title="Work together" subTitle="How do we collaborate?" class="mt-12" />
 <Steps />
+
 <FormVue />
 
 </Layout>

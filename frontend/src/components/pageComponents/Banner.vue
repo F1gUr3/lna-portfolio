@@ -28,7 +28,7 @@ import BannerImage from "@/assets/img/BannerImage.png";
   .TextSection {
     @apply m-auto items-center w-1/2 flex flex-col;
     #BannerTitle {
-      @apply text-8xl text-center font-bold relative;
+      @apply text-6xl md:text-8xl text-center font-bold relative m-4;
       background: -webkit-linear-gradient(120deg, #ffffff, #8a8a8a);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -53,13 +53,13 @@ import BannerImage from "@/assets/img/BannerImage.png";
       @apply text-xl text-center font-light;
     }
     #contact {
-      @apply p-4 bg-[#4700E8] text-center w-1/2 m-8 text-3xl font-extralight rounded-lg;
+      @apply p-4 bg-[#4700E8] text-center w-full md:w-1/2 m-8 text-3xl font-extralight rounded-lg;
     }
   }
   .ImageSection {
-    @apply m-auto w-1/2 flex items-center;
+    @apply hidden md:flex  w-1/2   relative;
     img {
-      @apply w-5/6;
+      @apply  h-full object-cover  ; 
     }
   }
 }
